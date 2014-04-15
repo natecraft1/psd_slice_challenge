@@ -1,0 +1,180 @@
+/******************************
+Media queries - Mobile First
+*******************************/
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+.clearfix:after {
+   content: ".";
+   display: block;
+   clear: both;
+   visibility: hidden;
+   line-height: 0;
+   height: 0;
+}
+
+.clearfix {
+   display: inline-block;
+}
+body {
+	margin: 0;
+	background: #eae8dc;
+}
+.container{
+	width: 82.278481012%;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
+.logo {
+	width: 100%;
+	display: block;
+}
+nav {
+	width: 100%;
+	background: #64bdcb;
+	border-radius: 8px;
+	height: 80px;
+}
+ul {
+	padding-top: 42px;
+	padding-left: 0;
+	list-style-type: none;
+	margin-top: -20px;
+	text-align: center;
+}
+li {
+	/*display: inline;*/
+	font-family: Arial;
+	color: #33838f;
+	display: inline-block;
+	float: left;
+	width: 20%;
+}
+h1 {
+	margin-top: 30px; 
+	color: #3a220d;
+}
+h2 {
+	color: #3a220d;
+	font-family: Arial;
+}
+section {
+	float: left;
+}
+.left {
+	width: 58.461538461%;
+	margin-right: 3%;
+}
+.ball-container {
+	width: 100%;
+	background: #ffffff;
+}
+.left img {
+	width: 94%;
+	margin: 3%;
+}
+.left p {
+	margin-top: 30px;
+	color: #3a220d;
+	font-size: 25px;
+}
+.right {
+	background: #ddd9c8;
+	width: 38.538461538%;
+}
+.right-container {
+	width: 92%;
+	margin: 0 auto;
+}
+.review-wrap img {
+	width: 20%;
+	float: left;
+}
+.review-wrap div {
+	float: left;
+	left: 6%;
+	width: 74%;
+	position:relative;
+	padding:15px;
+	margin: 0 0 1em;
+  background: #fdfdfd; 
+	border-radius:10px;
+	min-height: 50px;
+}
+.highlight {
+	border: 1px solid #bbb8a4;
+}
+.review-wrap div:after {
+  content:"";
+  position:absolute;
+  bottom:-15px; 
+  left:50px; 
+  border-width:15px 15px 0; 
+  border-style:solid;
+  border-color: #fdfdfd transparent;
+  display:block;
+  width:0;
+}
+.review-wrap div.text-bubble:after {
+  top:6px; 
+  left:-12px;
+  bottom:auto;
+  border-width: 17px 22px 17px 0;
+  border-color:transparent #fdfdfd;
+}
+.review-wrap p {
+	font-size: 16px;
+	margin: 0;
+	color: #555555;
+}
+.product-img-wrap {
+	float: right;
+	width: 46.73%;
+	background: #ffffff;
+	margin-bottom: 18px;
+}
+.p1 {
+	margin-left: 4.5%;
+}
+.related img {
+	width: 82%;
+	margin: 9%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/******************************
+Media queries - desktop
+*******************************/
+@media only screen and (max-width: 40.063em) {
+
+
+
+}
+
+
+
+/******************************
+Media queries - Tablets
+*******************************/
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+
+
+
+
+
+
+}
+
+
+
